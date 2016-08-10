@@ -17,7 +17,7 @@ class SalesCommission
 		}
 		for(int i=0;i<grossSales.size();i++)
 		{
-			int commission=200+(int)(0.9*grossSales.get(0));
+			int commission=200+(int)(0.9*grossSales.get(1));
 			grossSales.set(i,commission);
 		}
 		for(int i:grossSales)
